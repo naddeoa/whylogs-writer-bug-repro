@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "repro"
+version = "0.1.0"
+description = ""
+authors = ["Anthony Naddeo <anthony@whylabs.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+whylogs = {extras = ["whylabs"], version = "^1.1.25"}
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
